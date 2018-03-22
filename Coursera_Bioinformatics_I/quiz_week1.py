@@ -1,4 +1,4 @@
-import Bioinformatics_I as bio
+import Bioinformatics_I_Week1 as bio
 
 print(bio.pattern_count('CGCGATACGTTACATACATGATAGACCGCGCGCGATCATATCGCGATTATC', 'CGCG'))
 
