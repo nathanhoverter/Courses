@@ -52,8 +52,6 @@ def pattern_match(text, pattern):
 	Returns:
 		str: the indices of the matches (formatted for quiz submission)
 	"""
-	
-
 	match_list = []
 	for i in range(len(text)-len(pattern)):
 		if text[i:i+len(pattern)] == pattern:
@@ -141,7 +139,6 @@ def finding_frequent_words_by_sorting(text, k):
 		k(int): The length of the kmer words
 	Returns:
 		set: The most frequent words found in text
-	
     """
     frequent_patterns = set()
     index = []
@@ -193,7 +190,6 @@ def cluster_finding(k, t, l, genome):
 		str: A formatted list of sequences that pass as clusters
 
 	"""
-
 	count = []
 	clusters = set()
 	for i in range(len(genome)-l+1):		
@@ -205,7 +201,6 @@ def cluster_finding(k, t, l, genome):
 			clusters.add(genome[i:i+k])
 	formatted_list = ' '.join(list(clusters))
 	return formatted_list
-
 
 
 
