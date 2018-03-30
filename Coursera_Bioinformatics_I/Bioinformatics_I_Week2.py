@@ -140,7 +140,7 @@ def frequent_words_with_mismatches(genome, k, d):
 
 def frequent_words_with_mismatches_reverse_complement(genome, k, d):
 	"""Returns the most frequent kmer(s) of length k in genome with mismatches allowed d.  
-	kmers are searched through both the forward and reverse complement of genome strand
+	kmers are searched through both the forward and reverse complement of genome 
 	Args:
 		genome(str): the genome to be searched
 		k(int): the lenght of the frequent kmers
